@@ -31,6 +31,7 @@ app.post('/feedbacks', async (req, res) => {
   return res.json({ data: feedback })
 })
 
+console.log(`test`)
 app.listen(port, () => {
   console.log(`server started on port ${port}`)
 })
